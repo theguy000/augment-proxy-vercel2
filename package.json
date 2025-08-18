@@ -1,0 +1,17 @@
+{
+  "name": "augment-code-proxy-vercel",
+  "version": "1.0.0",
+  "description": "Augment Code OAuth Proxy for Vercel Serverless Functions",
+  "main": "api/proxy.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/health",
+      "destination": "/api/proxy"
+    },
+    {
+      "source": "/authorize",
+      "destination": "/api/proxy"
+    },
+    {
+      "source": "/api/proxy",
+      "destination": "/api/proxy"
+    },
+    {
+      "source": "/api/hello",
+      "destination": "/api/hello"
+    },
+    {
+      "source": "/",
+      "destination": "/api/proxy"
+    }
+  ]
+}
